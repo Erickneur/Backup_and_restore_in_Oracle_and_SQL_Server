@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F95CAD68-4097-FB7E-35D8-D635C311E33E" name="Partido">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:52:01 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="partido_id" id="E9DB1499-EF61-5073-ECD2-C810704461B1">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:52:01 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<importedID>84586F78-F8E7-C9D9-5716-E9C981EE84B4</importedID>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="partido_fecha" id="EBE6034B-C8C1-794B-8D53-EC61E1623ED1">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:52:01 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<importedID>557DE7A7-9699-632C-305D-DD44C28596A8</importedID>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="partido_golges_local" id="1EDEE037-CE6C-B414-B8E4-50B13146D90D">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:52:01 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<importedID>002105C9-1EAB-D191-20E3-00870C36B6B6</importedID>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="partido_goles_visita" id="11A8E4AD-EAB7-0574-47CE-50D510FDF490">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:52:01 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<importedID>6F491008-03F5-5DE9-130C-78EF5B337E6D</importedID>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jornada_id" id="59B1D3F3-73E2-ADE1-F4FA-8F9F14534D13">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:57:31 UTC</createdTime>
+<generatorID>10E4B6AB-E5B7-B64B-D27B-D17BCCA76845</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<referedAttribute>3FD0B613-726B-400F-CD12-4435C057E85B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="equipo_id" id="89512E51-F17F-B27A-1A4F-D728D6BC0877">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:57:54 UTC</createdTime>
+<generatorID>EC3FE79E-69B5-399A-3C8E-05361D32DEE7</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<referedAttribute>B0F8FB17-7DBE-93D9-899D-27A6F7BBAFA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="equipo_id1" id="DF0C11DC-12A3-4DEE-B8DC-D0194DC89D09">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:01 UTC</createdTime>
+<generatorID>F66B61C1-9104-DCED-E1B2-9A94D054C14B</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<referedAttribute>B0F8FB17-7DBE-93D9-899D-27A6F7BBAFA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08DF039C-F32F-FF9E-2948-A4E327344133" name="Partido PK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:52:01 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E9DB1499-EF61-5073-ECD2-C810704461B1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

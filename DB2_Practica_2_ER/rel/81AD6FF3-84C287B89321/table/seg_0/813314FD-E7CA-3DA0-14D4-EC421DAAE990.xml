@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="813314FD-E7CA-3DA0-14D4-EC421DAAE990" name="Liga">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>B58C15DC-5CE5-FF74-5CF3-1F22550DD4B5</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="liga_id" id="044AEC0F-5858-8D3A-614F-A77496393C18">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>285DEEF0-87D4-6A39-0B99-7CBDF2E5BD48</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liga_nombre" id="31208888-8140-D046-6E59-FE53BB0ADFE1">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>0B5931A4-DEA2-F048-6AA2-2D35F88E6732</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liga_fecha_inicio" id="B4595C64-2F14-6A8C-924F-EEE384FF6CB4">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>292100C6-B5D1-0E19-FD15-0A697113C249</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liga_fecha_fin" id="724E2F4F-AC12-6DA4-01C1-A7380D553A1C">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>99D9598D-FF2A-4C14-989E-EA17232E3E39</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="526A85C7-29A9-8B5B-84B1-F19D359DF7DF" name="Liga_PK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>936551C6-314E-DF6D-D740-09484C09BB98</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="044AEC0F-5858-8D3A-614F-A77496393C18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D928FDAA-753E-593F-1501-7379F884640B" name="Jornada">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:51:40 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="jornada_id" id="3FD0B613-726B-400F-CD12-4435C057E85B">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:51:40 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<importedID>A11D26F2-BC18-1BB7-AE04-F7D23AD142E4</importedID>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jornada_numero" id="3D547CD6-07E2-2B4E-C0D9-EB5DA0B4A428">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:51:40 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<importedID>230A7EFF-B6E1-E3C3-869A-149FFF3A08AE</importedID>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="liga_id" id="E8F00F4B-75B6-67B9-FDE8-AE96E1FD6C31">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:57:23 UTC</createdTime>
+<generatorID>B0C1160F-A527-9C1D-92AC-D3976C79B74A</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<referedAttribute>285DEEF0-87D4-6A39-0B99-7CBDF2E5BD48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC1ACF37-F8B6-04BD-6DFC-9391470ED3FE" name="Jornada PK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:51:40 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FD0B613-726B-400F-CD12-4435C057E85B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

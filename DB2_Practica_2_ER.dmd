@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DB2_Practica_2_ER" id="A48F4C01-94EC-5872-56CB-2DDD26C27BEF" version="3.5">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:44:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A48F4C01-94EC-5872-56CB-2DDD26C27BEF</designId>
+</OSDM_Design>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D1BCFDC-A16D-C826-8412-70C7D9018BC5" name="Partido">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>F95CAD68-4097-FB7E-35D8-D635C311E33E</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="partido_id" id="A22A0B25-C209-5E5D-4098-12CC6BC9FA38">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>E9DB1499-EF61-5073-ECD2-C810704461B1</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="partido_fecha" id="4BA0B0BF-8B9C-1C53-7D95-3FC1FEE225B0">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>EBE6034B-C8C1-794B-8D53-EC61E1623ED1</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="partido_golges_local" id="72F2E6F5-519B-4E91-A981-1E31DBEC732F">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>1EDEE037-CE6C-B414-B8E4-50B13146D90D</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="partido_goles_visita" id="C9B2E6F7-BD53-5AF1-CB9F-8F2C5C7B14BF">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>11A8E4AD-EAB7-0574-47CE-50D510FDF490</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jornada_id" id="196428F8-03F2-87E9-5AA1-073B91D59229">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>59B1D3F3-73E2-ADE1-F4FA-8F9F14534D13</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED55355D-A10A-9359-B5D2-DB1F84669A17" referredColumn="7A07A5AD-6E3E-2868-D2F2-077536AD7DA7"/>
+</associations>
+</Column>
+<Column name="equipo_id" id="3B34B2F7-0BC3-EF8D-4DE0-092090B4C090">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>89512E51-F17F-B27A-1A4F-D728D6BC0877</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5D98521-F2D3-B78F-C1D5-89E4E29FC724" referredColumn="F9BD7DE9-4DDA-DA06-B870-B364BFEE2362"/>
+</associations>
+</Column>
+<Column name="equipo_id1" id="A4EE145E-DA35-3243-2F10-EBD68494E28D">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>DF0C11DC-12A3-4DEE-B8DC-D0194DC89D09</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89B084D8-3A23-54DD-E1F1-B2E921729F2B" referredColumn="F9BD7DE9-4DDA-DA06-B870-B364BFEE2362"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4881F0D-CC73-204A-601B-ED843AFB75F3" name="Partido_PK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>08DF039C-F32F-FF9E-2948-A4E327344133</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A22A0B25-C209-5E5D-4098-12CC6BC9FA38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C6C3C34-DF64-3C80-01FF-6BDF5289B0C6" name="Partido_Jornada_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>10E4B6AB-E5B7-B64B-D27B-D17BCCA76845</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="196428F8-03F2-87E9-5AA1-073B91D59229"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75AD6EF0-CDBC-D4E3-5B25-C0D88DF54357" name="Partido_Equipo_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>EC3FE79E-69B5-399A-3C8E-05361D32DEE7</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B34B2F7-0BC3-EF8D-4DE0-092090B4C090"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DE7BF6B-58F7-9C79-FE8D-55F4F863D967" name="Partido_Equipo_FKv2">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>F66B61C1-9104-DCED-E1B2-9A94D054C14B</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4EE145E-DA35-3243-2F10-EBD68494E28D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

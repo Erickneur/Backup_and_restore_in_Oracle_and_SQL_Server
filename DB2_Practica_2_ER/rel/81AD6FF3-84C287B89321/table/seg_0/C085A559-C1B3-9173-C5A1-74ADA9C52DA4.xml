@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C085A559-C1B3-9173-C5A1-74ADA9C52DA4" name="Jornada">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>D928FDAA-753E-593F-1501-7379F884640B</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="jornada_id" id="7A07A5AD-6E3E-2868-D2F2-077536AD7DA7">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>3FD0B613-726B-400F-CD12-4435C057E85B</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jornada_numero" id="7B47E37D-7E5A-DC81-9176-BD1359B160B5">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>3D547CD6-07E2-2B4E-C0D9-EB5DA0B4A428</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liga_id" id="BB54455F-AAF6-7594-2222-75BD2742A2CF">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>E8F00F4B-75B6-67B9-FDE8-AE96E1FD6C31</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8629B04-AFA8-3CCA-2C72-01C3C05E4B55" referredColumn="044AEC0F-5858-8D3A-614F-A77496393C18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0AB062E-8919-64CD-770E-4E9AD8D554F5" name="Jornada_PK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>CC1ACF37-F8B6-04BD-6DFC-9391470ED3FE</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A07A5AD-6E3E-2868-D2F2-077536AD7DA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="858C58CF-83E3-5E27-B940-D959F473B469" name="Jornada_Liga_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:16 UTC</createdTime>
+<generatorID>B0C1160F-A527-9C1D-92AC-D3976C79B74A</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB54455F-AAF6-7594-2222-75BD2742A2CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

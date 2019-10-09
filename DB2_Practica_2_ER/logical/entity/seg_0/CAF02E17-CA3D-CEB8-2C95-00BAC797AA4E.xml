@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CAF02E17-CA3D-CEB8-2C95-00BAC797AA4E" name="Jugador">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:49:09 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="jugador_id" id="950A2D3E-ED14-BA5E-AF91-336D16B2CA5F">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:49:09 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<importedID>1D98BE4B-4268-8474-0692-00022DD57360</importedID>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jugador_nombre" id="8336FC58-208F-2F3A-8506-B72A1C2B4456">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:49:09 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<importedID>17E35184-02D8-8E13-DC23-4FEEED602F3C</importedID>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jugador_goles" id="33D19DD4-4D0F-BD8E-649D-3213AEDF7C39">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:52:49 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="equipo_id" id="72D26EBB-C99F-5A3F-6F05-604851E5A3D0">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:57:11 UTC</createdTime>
+<generatorID>C98727F3-F6BA-A1B0-851B-D0F1C59EED26</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<referedAttribute>B0F8FB17-7DBE-93D9-899D-27A6F7BBAFA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="liga_id" id="5977298A-4BE6-BDDC-BFB6-CC7F734893F8">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:58:08 UTC</createdTime>
+<generatorID>9E45B66F-7941-60AB-EC2A-1542091082A5</generatorID>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<referedAttribute>285DEEF0-87D4-6A39-0B99-7CBDF2E5BD48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B785F373-7908-82C4-4200-CD6A7CD2B5CF" name="Jugador PK">
+<createdBy>root</createdBy>
+<createdTime>2019-10-08 07:49:09 UTC</createdTime>
+<ownerDesignName>DB2_Practica_2_ER</ownerDesignName>
+<engineerTo>
+<item key="81AD6FF3-3975-295C-2745-84C287B89321" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>950A2D3E-ED14-BA5E-AF91-336D16B2CA5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
